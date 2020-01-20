@@ -8,6 +8,10 @@ const { Content } = Layout;
 const { Meta } = Card;
 
 const ContentLayout = ()=>{
+    const initialFromState = {
+        search : "",
+      }
+    const [input, setInput] = useState(initialFromState);
     const [film, setFilm] = useState('')
     const fetchFilm = () => {
         fetch('https://cors-anywhere.herokuapp.com/https://swapi.co/api/films/', {
@@ -22,7 +26,26 @@ const ContentLayout = ()=>{
 
         return () => clearTimeout(timeOut);
     }, []);
-    console.log('film',film)
+
+    const handleChange = title => event => {
+        setInput({ 
+          ...input,
+          [title]: typeof event != "string" ? event.target.value : event,
+        });
+      };
+    
+      let searchFilm = film.length !== 0 ? (film.filter((item) => {
+        const checkStatus = item.title.toLowerCase().indexOf(input.search.toLowerCase()) !== -1;
+        if(checkStatus === true){
+          return (
+            item.title.toLowerCase().indexOf(input.search.toLowerCase()) !== -1
+            )
+        }else{
+          return 0
+        }
+      }))
+      :(film)
+
     return(
         <Layout className='layout-content'>
             <Content className="content" style={{background: 'white'}}>
@@ -32,12 +55,12 @@ const ContentLayout = ()=>{
                             <Icon type='search' className='icon-search'/>
                             <Input
                                 placeholder={`Search film...`}
-                                // value={input.search}
-                                // onChange={handleChange("search")}
+                                value={input.search}
+                                onChange={handleChange("search")}
                                 className= 'search'
                             />
                         </div>
-                        { film.length !== 0 ? (film.map((item, index) => {
+                        { searchFilm.length !== 0 ? (searchFilm.map((item, index) => {
                             return(
                             <Col key={index} className="gutter-row" xs={8}>
                                 <Card
