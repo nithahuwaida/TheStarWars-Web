@@ -88,7 +88,7 @@ const ContentLayout = ()=>{
                             (
                                 <Result
                                 status="404"
-                                title="Loading"
+                                title="Loading..."
                                 />
                             )
                         }
