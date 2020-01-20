@@ -65,8 +65,7 @@ const ContentLayout = ()=>{
                             (
                                 <Result
                                 status="404"
-                                title="Gagal"
-                                subTitle="Maaf, Data tidak ditemukan"
+                                title="Loading"
                                 />
                             )
                         }
