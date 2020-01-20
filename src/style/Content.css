@@ -1,0 +1,80 @@
+  .layout-content{
+      min-height: 100vh;
+  }
+  .gutter-row{
+    min-height: 45vh
+  }
+  .content .ant-row > div {
+    background: white;
+    border: 0;
+  }
+  .content-card{
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  .search{
+    width: 30%;
+    display: 'block';
+    background-color:#001529;
+    color: white;
+    margin-right: 20px;
+  }
+  .icon-search{
+    background-color: #dcdb23;
+    color: #001529;
+    width: 5%;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    border-radius: 5px;
+    font-size: large;
+  }
+  .button-detail{
+    background-color: #001529;
+    color: #dcdb23;
+  }
+  .ant-select-selection--single {
+    background-color: transparent;
+  }
+  .meta-card{
+    margin-bottom: 10px;
+  }
+  .number-format {
+    font-weight: 600;
+  }
+  .number-format-cart {
+    font-weight: 600;
+    padding-left:10px;
+    color:white;
+  }
+  .add-cart:hover{
+    cursor: 'pointer';
+    background: #b0d8e8;
+  }
+  .button-checkout{
+    width: 100%;
+    border-radius: 0;
+    background: #001529;
+    color: white;
+    height: 40px;
+    font-weight: 600;
+    font-size: initial;
+  }
+  .quantity-input{
+    width: 50px;
+    float: left;
+    margin-left: 5px;
+    margin-right: 7px;
+  }
+  .ant-card-body .card-cart {
+    width: 350px;
+  }
+  .ant-card-actions .card-cart{
+    height: 57px;
+  }
+  .ant-card-body {
+    padding: 24px;
+    zoom: 1;
+    background: #f4f7b4;
+}

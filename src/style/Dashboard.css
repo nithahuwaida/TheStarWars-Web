@@ -1,0 +1,20 @@
+.layout{
+    min-height: 100vh;
+}
+.logo {
+    width: 120px;
+    height: 31px;
+    margin: 16px 24px 16px 0;
+    float: left;
+}
+h1.ant-typography, .ant-typography h1 title {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    line-height: 64px;
+    text-align: center;
+    margin-right: 100px;
+}
+.nav-menu{
+    float: right;
+    line-height: 64px;
+}
