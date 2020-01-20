@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="300" height="300" src="https://user-images.githubusercontent.com/29118699/72728606-54c24980-3bc0-11ea-9b32-dd0dda6f0da8.png">
+  <img width="500" height="300" src="https://user-images.githubusercontent.com/29118699/72728606-54c24980-3bc0-11ea-9b32-dd0dda6f0da8.png">
 </p>
 
 <p align="center">
@@ -19,6 +19,6 @@ Application about Star Wars Movie. View [StarWars](https://starwarsseries.netlif
 
 ## Showcase
 <p align="center">
-  <img width="300" height="300" src="https://user-images.githubusercontent.com/29118699/72728583-4b38e180-3bc0-11ea-9cb6-bd3fcd739d01.PNG">
-  <img width="300" height="300" src="https://user-images.githubusercontent.com/29118699/72728584-4bd17800-3bc0-11ea-8c4b-31749c8d2565.PNG">
+  <img width="500" height="300" src="https://user-images.githubusercontent.com/29118699/72728583-4b38e180-3bc0-11ea-9cb6-bd3fcd739d01.PNG">
+  <img width="500" height="300" src="https://user-images.githubusercontent.com/29118699/72728584-4bd17800-3bc0-11ea-8c4b-31749c8d2565.PNG">
 </p>
